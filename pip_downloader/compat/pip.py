@@ -54,7 +54,7 @@ PackageFinder = from_pip_import('index.PackageFinder')
 PipSession = from_pip_import('download.PipSession')
 #_egg_info_matches = from_pip_import('index._egg_info_matches')
 #SUPPORTED_EXTENSIONS = from_pip_import('utils.misc.SUPPORTED_EXTENSIONS')
-WHEEL_EXTENSION = from_pip_import('utils.misc.WHEEL_EXTENSION')
+#WHEEL_EXTENSION = from_pip_import('utils.misc.WHEEL_EXTENSION')
 InvalidWheelFilename = from_pip_import('exceptions.InvalidWheelFilename')
 from pip._vendor.packaging.utils import canonicalize_name  # noqa: F401
 
