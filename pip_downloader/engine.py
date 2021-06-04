@@ -4,9 +4,10 @@ import os
 import requests
 
 from pip_downloader.compat.pip import (
-    RequirementSet, RequirementTracker, TempDirectory, install_req_from_line, PyPI, PackageFinder,
+    RequirementSet, RequirementTracker, install_req_from_line, PyPI, PackageFinder,
     src_prefix, RequirementPreparer, Resolver, PipSession, canonicalize_name, Link,
     SUPPORTED_EXTENSIONS, WHEEL_EXTENSION, Wheel, InvalidWheelFilename, _egg_info_matches)
+from tempdir import mkdtemp as TempDirectory
 
 
 def _get_finder(session):
