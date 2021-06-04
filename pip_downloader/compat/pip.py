@@ -42,7 +42,7 @@ else:
 
 RequirementSet = from_pip_import('req.req_set.RequirementSet')
 Wheel = from_pip_import('wheel.Wheel')
-TempDirectory = from_pip_import('utils.temp_dir.TempDirectory')
+TempDirectory = from_pip_import('utils.tempdir.mkdtemp')
 InstallRequirement = from_pip_import('req.req_install.InstallRequirement')
 PyPI = from_pip_import('models.index.PyPI')
 Link = from_pip_import('models.link.Link')
